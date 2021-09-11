@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./appassigment.css">
+</head>
+
+<body>
+ 
+    <fieldset class="fieldset">
+        <legend>log in</legend>
+        <div class="container">
+            <div class="login-box">
+                <h1>login here</h1>
+                
+                    <input id="L_email" type="email" placeholder="enter email"><br>
+                    <input id="L_pass" type="password" placeholder="enter password"><br>
+                    <p>show password:</p>
+                    <input type="checkbox" onclick="myfunc()"><br>
+                    <button onclick="login()">login </button>
+
+                
+            </div>
+        </div>
+    </fieldset>
+
+
+
+    <!-- javascript -->
+    <!-- <script src="appassigment.js"></script> -->
+    <script>
+// checkbox
+var a = document.getElementById('L_pass');
+
+function myfunc(){
+    if(a.type === 'password'){
+        a.type = 'text';
+
+    }else{
+        a.type = 'password';
+    }
+}
+// chekbox
+
+//  login 
+
+function login(){
+    var L_email = document.getElementById("L_email").value;
+    var L_pass = document.getElementById("L_pass").value;
+
+    var email1 = localStorage.getItem("email1");
+    var pass1 = localStorage.getItem("pass1");
+
+    if(L_email==email1 && L_pass==pass1){
+
+        localStorage.setItem("code","secret");
+        window.location.href="home.html";
+    }else{
+        alert("email and pass is incorrect");
+    }
+
+}
+//  login 
+    </script>
+</body>
+
+</html>

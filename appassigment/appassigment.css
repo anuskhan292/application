@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+.fieldset{
+    padding: 60px;
+    margin-top: -20px;
+}
+.container{
+   background-color: peachpuff;
+   width: 404px;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   box-shadow: 2px 3px 5px 2px  black;
+
+}
+.login-box h1{
+    padding: 20px;
+
+
+}
+
+#L_email{
+    letter-spacing: 3px;
+    width: 250px;
+    border: none;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+
+
+    
+}
+#L_pass{
+    letter-spacing: 3px;
+    width: 250px;
+    padding: 7px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    
+
+}
+p{
+    color: black;
+    letter-spacing: 3px;
+    padding: 7px;
+}
+button{    
+color: white;
+text-decoration: none;
+text-align: center;
+background-color: blue;
+font-family: cursive;
+width: 80px;
+height: 30px;
+float: left;    
+}
+button:hover{
+    width: 100px;
+}
+
+/* signup */
+
+#name{
+    letter-spacing: 3px;
+    width: 220px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+#fName{
+    letter-spacing: 3px;
+    width: 220px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+#email{
+    letter-spacing: 3px;
+    width: 220px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+#pass{
+    letter-spacing: 3px;
+    width: 250px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+/* loginhref */
+#hrefLogin{
+    
+color: white;
+text-decoration: none;
+text-align: center;
+background-color: blue;
+font-family: cursive;
+width: 80px;
+height: 30px;
+float: right;
+margin-top: -16px;
+/* animation: .8s all; */
+}
+#hrefLogin:hover{
+    width: 100px;
+
+}
+/* signup */
+
+

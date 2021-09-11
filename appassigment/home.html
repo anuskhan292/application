@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="welcom">welcome:
+            <script>document.write(localStorage.getItem("name1"))</script>
+        </h1>
+    </div>
+
+    <a class="logout" href="logout.html">Log Out</a>
+
+
+
+    <fieldset id="field">
+        <legend>Teams</legend>
+        <p id="topBar"> Teams you own</p>
+        <div class="sec1">
+            <h4>Devoloper</h4>
+            <p><b>Members</b>:Anus,Khan & 1 Others</p>
+        </div><br><br>
+        <div class="sec2">
+            <h4>Maintenance Team</h4>
+            <p> <b>Members</b> :Anus,Usama & 10 Others</p>
+        </div>
+
+        <p id="meBar">Team you,re part of</p>
+        <div class="sec3">
+            <h4>Devoloper</h4>
+            <p><b>Members</b>:Anus,Khan & 1 Others</p>
+        </div><br><br>
+        <div class="sec4">
+            <h4>Devoloper</h4>
+            <p>Members:Anus,Khan & 1 Others</p>
+        </div>
+    </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var abc = localStorage.getItem("code");
+
+        if (abc == "secret") {
+
+        } else {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+
+</html>

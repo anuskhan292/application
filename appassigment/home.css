@@ -1,0 +1,78 @@
+
+.logout{
+color: white;
+text-decoration: none;
+text-align: center;
+background-color: blue;
+font-family: cursive;
+width: 80px;
+height: 30px;
+float: right;
+margin-top: -55px;
+}
+
+#welcom{
+text-align: center;
+font-family: sans-serif;
+background-color: paleturquoise;
+}
+#field{
+    margin: 10px 60px;
+}
+#topBar{
+    text-align: center;
+    font-size: 30px;
+}
+
+.sec1{
+    border: 1px solid black;
+    width: 700px;
+    margin: auto;
+}
+.sec1 h4{
+    margin-left: 20px;
+}
+.sec1 p{
+    margin-left: 20px;
+}
+.sec2{
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 700px;
+    margin: auto;
+}
+.sec2 h4{
+    margin-left: 20px;
+}
+.sec2 p{
+    margin-left: 20px;
+}
+#meBar{
+    text-align: center;
+    font-size: 30px;
+
+}
+.sec3{
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 700px;
+    margin: auto;
+}
+.sec3 h4{
+    margin-left: 20px;
+}
+.sec3 p{
+    margin-left: 20px;
+}
+.sec4{
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 700px;
+    margin: auto;
+}
+.sec4 h4{
+    margin-left: 20px;
+}
+.sec4 p{
+    margin-left: 20px;
+}
